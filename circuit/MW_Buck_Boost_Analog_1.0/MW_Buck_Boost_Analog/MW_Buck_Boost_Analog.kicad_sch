@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8fcd8466-e9f7-4958-8f9f-9aae38a059bc")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 77.216 96.266)
+		(size 56.896 41.656)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f68cb5c-71e7-4bd8-bdaf-c3f603edb231")
+		(property "Sheetname" "SC8701_PWR"
+			(at 77.216 95.5544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SC8701_PWR.kicad_sch"
+			(at 77.216 138.5066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MW_Buck_Boost_Analog"
+				(path "/8fcd8466-e9f7-4958-8f9f-9aae38a059bc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,405 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "081edf49-b0d8-40ba-adb9-a8410c400630")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 115.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01caa90d-9298-4404-b90c-2b7399bc60f6")
+	)
+	(wire
+		(pts
+			(xy 101.6 92.71) (xy 115.57 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8d2e97-9605-45fa-9657-e8094aaf903c")
+	)
+	(wire
+		(pts
+			(xy 148.59 83.82) (xy 158.75 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbe63b4-700e-40b8-9468-d7a4fe447bd7")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 115.57 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e17f33-30ac-4316-b342-ead611d2a5e0")
+	)
+	(wire
+		(pts
+			(xy 148.59 86.36) (xy 158.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636d383b-1cfa-492b-92e0-91db639cd0be")
+	)
+	(wire
+		(pts
+			(xy 101.6 90.17) (xy 115.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816ebd46-896e-4605-a778-3fc8fbd8ce4f")
+	)
+	(wire
+		(pts
+			(xy 148.59 88.9) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886a5674-6185-49a6-a761-b8edf0d4b696")
+	)
+	(wire
+		(pts
+			(xy 148.59 91.44) (xy 158.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6927c8c-9609-498e-9a70-e351c3ed5721")
+	)
+	(sheet
+		(at 158.75 80.01)
+		(size 38.1 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21b4ef6e-1f19-46fd-a3c9-a5369f6beb22")
+		(property "Sheetname" "MCU"
+			(at 158.75 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 158.75 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_Vout" input
+			(at 158.75 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5aa3db0f-6acb-4c95-bc54-3f197219d10e")
+		)
+		(pin "ADC_Vin" input
+			(at 158.75 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9934eae7-be16-49a1-8fdf-7a6ddca5e746")
+		)
+		(pin "ADC_Iout" input
+			(at 158.75 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b4971411-4395-4d93-94c9-90fee42751c4")
+		)
+		(pin "ADC_Iin" input
+			(at 158.75 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6ac61f81-db93-41c7-988d-eaad2429117f")
+		)
+		(instances
+			(project "MW_Buck_Boost_CS"
+				(path "/081edf49-b0d8-40ba-adb9-a8410c400630"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 80.01)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "342f2c6f-8c0c-4035-953e-c752ba3d69c7")
+		(property "Sheetname" "Sensor"
+			(at 115.57 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensor.kicad_sch"
+			(at 115.57 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_out-" input
+			(at 115.57 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "398a1503-f5c3-4e6f-a0b5-c62d970fb142")
+		)
+		(pin "V_out+" input
+			(at 115.57 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2ff33707-3d20-4442-92f7-81bb7ca6c9c2")
+		)
+		(pin "V_in-" input
+			(at 115.57 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5a73f384-aa77-4213-878f-3e9655668970")
+		)
+		(pin "V_in+" input
+			(at 115.57 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "991a3c0b-1ddb-4b87-ab29-ea821d4e72bb")
+		)
+		(pin "ADC_Vin" output
+			(at 148.59 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de0a948b-4e2f-4ca5-974b-3f0e36da8a06")
+		)
+		(pin "ADC_Vout" output
+			(at 148.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0182e00c-6f1c-4bd6-9490-3c7cb6c51c53")
+		)
+		(pin "ADC_Iout" output
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f55bd0b7-0a05-432b-bd98-fd70277ac0fa")
+		)
+		(pin "ADC_Iin" output
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "709cf5aa-dbdb-4127-ad9d-57ddfdf3c549")
+		)
+		(instances
+			(project "MW_Buck_Boost_CS"
+				(path "/081edf49-b0d8-40ba-adb9-a8410c400630"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 80.01)
+		(size 30.48 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be026bcc-e674-475b-a33d-280dada3c8a5")
+		(property "Sheetname" "MainCircuit"
+			(at 71.12 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MainCircuit.kicad_sch"
+			(at 71.12 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_out-" output
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6449017b-e6e9-4666-82f8-1a877f756c6a")
+		)
+		(pin "V_out+" output
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98f443ca-4535-4a5e-8381-3a9d0b9e1b69")
+		)
+		(pin "V_in+" output
+			(at 101.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f9e85be0-348a-4554-970a-309458219d6c")
+		)
+		(pin "V_in-" output
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2384fd34-ce54-4974-bf38-85168166060d")
+		)
+		(instances
+			(project "MW_Buck_Boost_CS"
+				(path "/081edf49-b0d8-40ba-adb9-a8410c400630"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 113.03)
+		(size 30.48 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da3b230b-2ede-429d-8d75-aa93230850ea")
+		(property "Sheetname" "POWER"
+			(at 71.12 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER_sch.kicad_sch"
+			(at 71.12 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MW_Buck_Boost_CS"
+				(path "/081edf49-b0d8-40ba-adb9-a8410c400630"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,315 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "081edf49-b0d8-40ba-adb9-a8410c400630")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 148.59 83.82) (xy 158.75 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbe63b4-700e-40b8-9468-d7a4fe447bd7")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 115.57 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e17f33-30ac-4316-b342-ead611d2a5e0")
+	)
+	(wire
+		(pts
+			(xy 148.59 86.36) (xy 158.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636d383b-1cfa-492b-92e0-91db639cd0be")
+	)
+	(wire
+		(pts
+			(xy 101.6 91.44) (xy 115.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816ebd46-896e-4605-a778-3fc8fbd8ce4f")
+	)
+	(wire
+		(pts
+			(xy 148.59 88.9) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886a5674-6185-49a6-a761-b8edf0d4b696")
+	)
+	(sheet
+		(at 158.75 80.01)
+		(size 38.1 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21b4ef6e-1f19-46fd-a3c9-a5369f6beb22")
+		(property "Sheetname" "MCU"
+			(at 158.75 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 158.75 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Protection_Sensor_Iout" input
+			(at 158.75 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f041bb9c-4866-4d69-8895-f75dae86a225")
+		)
+		(pin "Protection_Sensor_Vout" input
+			(at 158.75 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "299db7a7-205f-40af-bf10-ba7eca9d2cb3")
+		)
+		(pin "Protection_Sensor_Vin" input
+			(at 158.75 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a21c5bd3-e744-4992-b7b0-a2ac1cc31dd4")
+		)
+		(instances
+			(project "MW_Buck_Boost_CS"
+				(path "/081edf49-b0d8-40ba-adb9-a8410c400630"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 80.01)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "342f2c6f-8c0c-4035-953e-c752ba3d69c7")
+		(property "Sheetname" "Sensor"
+			(at 115.57 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensor.kicad_sch"
+			(at 115.57 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_out-" input
+			(at 115.57 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "398a1503-f5c3-4e6f-a0b5-c62d970fb142")
+		)
+		(pin "V_out+" input
+			(at 115.57 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2ff33707-3d20-4442-92f7-81bb7ca6c9c2")
+		)
+		(pin "Protection_Sensor_Vin" output
+			(at 148.59 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9c089584-6c2a-4b49-817a-9055bd60bcf4")
+		)
+		(pin "Protection_Sensor_Iout" output
+			(at 148.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4adbe42c-7237-4827-8619-a10c6889f15f")
+		)
+		(pin "Protection_Sensor_Vout" output
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dbbe6d25-3a06-4af7-9237-44e86afb3307")
+		)
+		(instances
+			(project "MW_Buck_Boost_CS"
+				(path "/081edf49-b0d8-40ba-adb9-a8410c400630"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 80.01)
+		(size 30.48 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be026bcc-e674-475b-a33d-280dada3c8a5")
+		(property "Sheetname" "MainCircuit"
+			(at 71.12 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MainCircuit.kicad_sch"
+			(at 71.12 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_out-" output
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6449017b-e6e9-4666-82f8-1a877f756c6a")
+		)
+		(pin "V_out+" output
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98f443ca-4535-4a5e-8381-3a9d0b9e1b69")
+		)
+		(instances
+			(project "MW_Buck_Boost_CS"
+				(path "/081edf49-b0d8-40ba-adb9-a8410c400630"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 113.03)
+		(size 30.48 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da3b230b-2ede-429d-8d75-aa93230850ea")
+		(property "Sheetname" "POWER"
+			(at 71.12 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER_sch.kicad_sch"
+			(at 71.12 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MW_Buck_Boost_CS"
+				(path "/081edf49-b0d8-40ba-adb9-a8410c400630"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
