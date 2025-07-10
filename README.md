@@ -3,7 +3,7 @@
 [English](./README.md)/中文
 
 ***
-初赛演示视频：[2025年嵌入式设计大赛ST赛道-基于 STM32G4 平台的数控 MPPT 四开关 buckboost 变换器](https://www.bilibili.com/video/BV1jSGMzNE3r/?spm_id_from=333.1387.homepage.video_card.click&vd_source=abfcf92775ddd86e25fb9949e3e04cfe)
+初赛演示视频：[2025年嵌入式设计大赛ST赛道-基于 STM32G4 平台的数控 MPPT 四开关 buckboost 变换器](https://www.bilibili.com/video/BV1HrGgzEE6s/)
 
 # 作品实物图
 
@@ -18,22 +18,22 @@
 
 ## 1.1 关键性能指标
 **输出电压：**
-最高输出电压：11.604V
+最高输出电压：10.74V
 
-最低输出电压：16.167V
+最低输出电压：15.20V
 
 
 **稳态平均功率：**
 
-13.785W
+12.39W
 
 **稳态功率波动：**
 
-0.14%
+0.02%
 
 **最大功率点跟踪效率：**
 
-97.9%
+94.8%
 ## 1.2 主要创新点
 
 
